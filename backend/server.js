@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+    origin: 'https://new-food-shop-iy3i9zn95-react-60623608.vercel.app',
     credentials: true,
   })
 );
