@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://new-food-shop-iy3i9zn95-react-60623608.vercel.app',
+    origin: 'https://new-food-shop-git-main-react-60623608.vercel.app/',
     credentials: true,
   })
 );
