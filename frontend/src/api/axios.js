@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL:'https://new-food-shop.onrender.com',
+  baseURL:'https://new-food-shop.onrender.com/api',
 });
 
 // Attach the saved JWT (if any) to every request
